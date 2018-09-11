@@ -63,3 +63,37 @@ body {
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: #144579;
 }
+#carouselExampleIndicators {
+  position: relative;
+}
+.carousel-caption {
+  background: rgba(0,0,0,0.7);
+}
+.card {
+    border-radius: 0px;
+    /*box-shadow: 5px 6px 7px #828282;*/
+    border: none;
+    background: none !important;
+}
+.section-title {
+  margin: 50px 0px;
+  position: relative;
+}
+.section-title:after {
+  height: 2px;
+  width: 100px;
+  position: absolute;
+  background: #000;
+  bottom: -10px;
+  content:"";
+  left: 50%;
+  margin-left: -50px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  background: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  text-transform: uppercase;
+}
